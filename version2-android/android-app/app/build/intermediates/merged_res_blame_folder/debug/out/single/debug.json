@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.security.research.phonemonitor.app-merged_res-20:/xml_accessibility_service_config.xml.flat",
+        "source": "com.security.research.phonemonitor.app-main-22:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.security.research.phonemonitor.app-merged_res-20:/layout_activity_main.xml.flat",
+        "source": "com.security.research.phonemonitor.app-main-22:/layout/activity_main.xml"
+    }
+]

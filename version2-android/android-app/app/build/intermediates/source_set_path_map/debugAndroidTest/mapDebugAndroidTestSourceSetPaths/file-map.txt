@@ -1,0 +1,4 @@
+com.security.research.phonemonitor.test.app-androidTest-0 /home/arch/keylogger-lab-v2/android-app/app/build/generated/res/resValues/androidTest/debug
+com.security.research.phonemonitor.test.app-mergeDebugAndroidTestResources-1 /home/arch/keylogger-lab-v2/android-app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.security.research.phonemonitor.test.app-mergeDebugAndroidTestResources-2 /home/arch/keylogger-lab-v2/android-app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.security.research.phonemonitor.test.app-debugAndroidTest-3 /home/arch/keylogger-lab-v2/android-app/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

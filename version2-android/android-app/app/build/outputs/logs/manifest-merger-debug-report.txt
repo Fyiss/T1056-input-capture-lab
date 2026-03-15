@@ -1,0 +1,241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/arch/.gradle/caches/8.9/transforms/108fa68cced8a38210c05881c0897ce1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/arch/.gradle/caches/8.9/transforms/111bad9e5500fde81bbe4498225172f4/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/arch/.gradle/caches/8.9/transforms/e89fa51e72124f6ec49ae26c27bb397c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/arch/.gradle/caches/8.9/transforms/bae0a28c2bbd7d9e223f9f5b60c081ae/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8cc89ace168f1fe09c758ad5dbb2d858/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/arch/.gradle/caches/8.9/transforms/2e2ceaf18da44a1413e2abc3f1a6cb14/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/arch/.gradle/caches/8.9/transforms/ba014d2239dabdcac1aa8e8394c8a06c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/arch/.gradle/caches/8.9/transforms/f7392767c9c624b922f01354c825ed08/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arch/.gradle/caches/8.9/transforms/0c7dc11008845958c5be0775c397a004/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/arch/.gradle/caches/8.9/transforms/afeed292cdd16dbcacba4ad102a152cb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8e7d893cd2c831d0a5208346cd850f77/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/arch/.gradle/caches/8.9/transforms/83cb941fc43d3ec2c11cc557e3f87206/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/arch/.gradle/caches/8.9/transforms/642c9addad6e23e1db0ceb697c4bf8ff/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/arch/.gradle/caches/8.9/transforms/5f7faf4480dbeca297bb4399075ffc96/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/arch/.gradle/caches/8.9/transforms/70b0071c9387cd7ef1b87a0652822e83/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/arch/.gradle/caches/8.9/transforms/343d42d4330f06671c1cfee2dc3845ab/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/arch/.gradle/caches/8.9/transforms/3881879c148efe60b51b27b5de515bfe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/arch/.gradle/caches/8.9/transforms/b9903ffa05b208b2735e390825280637/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arch/.gradle/caches/8.9/transforms/752e9240b2a49ac67d5210325005b661/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arch/.gradle/caches/8.9/transforms/c2a5581641dbe39aacb4e3d289ac559f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arch/.gradle/caches/8.9/transforms/f691d2941b49c0156e3bf186957f6f40/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/arch/.gradle/caches/8.9/transforms/ccc1f8ea9af7921eacf6b9583f41d6e4/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arch/.gradle/caches/8.9/transforms/08b3190b1c234b8d915e9227c0c9d8a3/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arch/.gradle/caches/8.9/transforms/beec9a9d901776b9282ee1564d34d977/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:6:22-74
+application
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:8:5-45:19
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:8:5-45:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arch/.gradle/caches/8.9/transforms/c2a5581641dbe39aacb4e3d289ac559f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arch/.gradle/caches/8.9/transforms/c2a5581641dbe39aacb4e3d289ac559f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:10:9-39
+	android:allowBackup
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:9:9-36
+	android:theme
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:13:9-50
+	android:networkSecurityConfig
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:11:9-69
+activity#com.security.research.phonemonitor.MainActivity
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:exported
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:20:27-74
+service#com.security.research.phonemonitor.KeyloggerService
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:24:9-35:19
+	android:label
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:27:13-43
+	android:exported
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:28:13-79
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:25:13-45
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:29:13-31:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:30:17-92
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:30:25-89
+meta-data#android.accessibilityservice
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:32:13-34:72
+	android:resource
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:33:17-60
+receiver#com.security.research.phonemonitor.BootReceiver
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:37:9-43:20
+	android:exported
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:38:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:40:13-42:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:41:17-79
+	android:name
+		ADDED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:41:25-76
+uses-sdk
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/arch/.gradle/caches/8.9/transforms/108fa68cced8a38210c05881c0897ce1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/arch/.gradle/caches/8.9/transforms/108fa68cced8a38210c05881c0897ce1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/arch/.gradle/caches/8.9/transforms/111bad9e5500fde81bbe4498225172f4/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/arch/.gradle/caches/8.9/transforms/111bad9e5500fde81bbe4498225172f4/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/arch/.gradle/caches/8.9/transforms/e89fa51e72124f6ec49ae26c27bb397c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/arch/.gradle/caches/8.9/transforms/e89fa51e72124f6ec49ae26c27bb397c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/arch/.gradle/caches/8.9/transforms/bae0a28c2bbd7d9e223f9f5b60c081ae/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/arch/.gradle/caches/8.9/transforms/bae0a28c2bbd7d9e223f9f5b60c081ae/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8cc89ace168f1fe09c758ad5dbb2d858/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8cc89ace168f1fe09c758ad5dbb2d858/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/arch/.gradle/caches/8.9/transforms/2e2ceaf18da44a1413e2abc3f1a6cb14/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/arch/.gradle/caches/8.9/transforms/2e2ceaf18da44a1413e2abc3f1a6cb14/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/arch/.gradle/caches/8.9/transforms/ba014d2239dabdcac1aa8e8394c8a06c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/arch/.gradle/caches/8.9/transforms/ba014d2239dabdcac1aa8e8394c8a06c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/arch/.gradle/caches/8.9/transforms/f7392767c9c624b922f01354c825ed08/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/arch/.gradle/caches/8.9/transforms/f7392767c9c624b922f01354c825ed08/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arch/.gradle/caches/8.9/transforms/0c7dc11008845958c5be0775c397a004/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/arch/.gradle/caches/8.9/transforms/0c7dc11008845958c5be0775c397a004/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/arch/.gradle/caches/8.9/transforms/afeed292cdd16dbcacba4ad102a152cb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/arch/.gradle/caches/8.9/transforms/afeed292cdd16dbcacba4ad102a152cb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8e7d893cd2c831d0a5208346cd850f77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/arch/.gradle/caches/8.9/transforms/8e7d893cd2c831d0a5208346cd850f77/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/arch/.gradle/caches/8.9/transforms/83cb941fc43d3ec2c11cc557e3f87206/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/arch/.gradle/caches/8.9/transforms/83cb941fc43d3ec2c11cc557e3f87206/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/arch/.gradle/caches/8.9/transforms/642c9addad6e23e1db0ceb697c4bf8ff/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/arch/.gradle/caches/8.9/transforms/642c9addad6e23e1db0ceb697c4bf8ff/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.12.0] /home/arch/.gradle/caches/8.9/transforms/5f7faf4480dbeca297bb4399075ffc96/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/arch/.gradle/caches/8.9/transforms/5f7faf4480dbeca297bb4399075ffc96/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/arch/.gradle/caches/8.9/transforms/70b0071c9387cd7ef1b87a0652822e83/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/arch/.gradle/caches/8.9/transforms/70b0071c9387cd7ef1b87a0652822e83/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/arch/.gradle/caches/8.9/transforms/343d42d4330f06671c1cfee2dc3845ab/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/arch/.gradle/caches/8.9/transforms/343d42d4330f06671c1cfee2dc3845ab/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/arch/.gradle/caches/8.9/transforms/3881879c148efe60b51b27b5de515bfe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/arch/.gradle/caches/8.9/transforms/3881879c148efe60b51b27b5de515bfe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/arch/.gradle/caches/8.9/transforms/b9903ffa05b208b2735e390825280637/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/arch/.gradle/caches/8.9/transforms/b9903ffa05b208b2735e390825280637/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arch/.gradle/caches/8.9/transforms/752e9240b2a49ac67d5210325005b661/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/arch/.gradle/caches/8.9/transforms/752e9240b2a49ac67d5210325005b661/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arch/.gradle/caches/8.9/transforms/c2a5581641dbe39aacb4e3d289ac559f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/arch/.gradle/caches/8.9/transforms/c2a5581641dbe39aacb4e3d289ac559f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arch/.gradle/caches/8.9/transforms/f691d2941b49c0156e3bf186957f6f40/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/arch/.gradle/caches/8.9/transforms/f691d2941b49c0156e3bf186957f6f40/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/arch/.gradle/caches/8.9/transforms/ccc1f8ea9af7921eacf6b9583f41d6e4/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/arch/.gradle/caches/8.9/transforms/ccc1f8ea9af7921eacf6b9583f41d6e4/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arch/.gradle/caches/8.9/transforms/08b3190b1c234b8d915e9227c0c9d8a3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/arch/.gradle/caches/8.9/transforms/08b3190b1c234b8d915e9227c0c9d8a3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arch/.gradle/caches/8.9/transforms/beec9a9d901776b9282ee1564d34d977/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/arch/.gradle/caches/8.9/transforms/beec9a9d901776b9282ee1564d34d977/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/arch/.gradle/caches/8.9/transforms/90f1ce892e919d8bb02f9c0a2472ee38/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

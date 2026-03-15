@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.security.research.phonemonitor.app-debug-20:/xml_network_security_config.xml.flat",
+        "source": "com.security.research.phonemonitor.app-main-22:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/xml_accessibility_service_config.xml.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-debug-20:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/arch/.gradle/daemon/8.9/com.security.research.phonemonitor.app-main-22:/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

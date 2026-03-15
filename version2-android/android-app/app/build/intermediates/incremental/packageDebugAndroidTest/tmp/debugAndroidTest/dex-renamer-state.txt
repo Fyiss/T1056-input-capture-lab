@@ -1,0 +1,4 @@
+#Sun Mar 15 12:57:20 CET 2026
+base.0=/home/arch/keylogger-lab-v2/android-app/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

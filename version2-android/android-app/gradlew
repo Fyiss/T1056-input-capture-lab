@@ -1,0 +1,4 @@
+#!/bin/sh
+JAVA_HOME="${JAVA_HOME:-/opt/android-studio/jbr}"
+export JAVA_HOME
+exec java -jar "$(dirname "$0")/gradle/wrapper/gradle-wrapper.jar" "$@"

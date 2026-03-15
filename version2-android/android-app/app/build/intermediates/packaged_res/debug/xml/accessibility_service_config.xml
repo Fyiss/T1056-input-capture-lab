@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    res/xml/accessibility_service_config.xml
+    =========================================
+    Tells Android exactly what events this service wants to receive.
+    accessibilityEventTypes: which events to fire
+    accessibilityFeedbackType: we use GENERIC (no audio/haptic feedback)
+    canRetrieveWindowContent: lets us read text from any window
+-->
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewTextChanged|typeWindowStateChanged|typeViewFocused"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_description"
+    android:notificationTimeout="100"
+    android:settingsActivity=".MainActivity" />
