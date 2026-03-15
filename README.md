@@ -1,4 +1,4 @@
-# 🔐 Input Capture Security Research
+#  Input Capture Security Research
 ### Linux evdev Keylogger + Android Accessibility Keylogger
 #### A complete attack/defence security research project — MITRE ATT&CK T1056.001 & T1056.002
 
@@ -481,16 +481,16 @@ Python asyncio WebSocket server listening on `0.0.0.0:9999`. For each connected 
 
 | Version | Method | Result |
 |---|---|---|
-| V1 | /proc fd scan | ✅ Detected python3 reading event3 |
-| V1 | input group audit | ✅ Flagged unexpected group members |
-| V1 | hidden file scan | ✅ Found .ksraw and .syslog |
-| V2 | Accessibility service audit | ✅ Shows in Settings → Accessibility |
-| V2 | ADB dumpsys | ✅ `adb shell dumpsys accessibility` |
-| V2 | Logcat monitoring | ✅ `adb logcat \| grep PhoneMonitor` |
+| V1 | /proc fd scan | - Detected python3 reading event3 |
+| V1 | input group audit | - Flagged unexpected group members |
+| V1 | hidden file scan | - Found .ksraw and .syslog |
+| V2 | Accessibility service audit | - Shows in Settings → Accessibility |
+| V2 | ADB dumpsys | - `adb shell dumpsys accessibility` |
+| V2 | Logcat monitoring | - `adb logcat \| grep PhoneMonitor` |
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Version 1
 
@@ -529,7 +529,7 @@ adb install android-app/app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## 📄 Research Papers
+## Research 
 
 - `keylogger-lab/report/writeup.md` — Linux evdev keylogger research
 - `keylogger-lab-v2/report/writeup_v2.md` — Android Accessibility keylogger research
@@ -538,13 +538,12 @@ Both papers cover: technical breakdown, MITRE ATT&CK mapping, detection methodol
 
 ---
 
-## 👤 Author
+## Author
 
-**Darshith**
+**Darshith Thalipady Nagesh**
 Security Research | Arch Linux | Android | Python | Kotlin
 March 2026
 
 ---
 
-*This project was built as part of a cybersecurity portfolio for internship applications in Germany.*
 *All research conducted on personal hardware. Never deployed on third-party devices.*
