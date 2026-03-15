@@ -244,4 +244,4 @@ Building both sides of this attack — the keylogger and the detector — produc
 ---
 
 *Research conducted on: Arch Linux x86_64 | Linux 6.13.6-arch1-1 | Hyprland 0.47.2 | Python 3.12*
-*Author: Darshith | Date: March 2026*
+*Author: Darshith Thalipady Nagesh | Date: March 2026*
