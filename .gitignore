@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Android build
+version2-android/android-app/app/build/
+version2-android/android-app/.gradle/
+version2-android/android-app/local.properties
+*.apk
+*.aab
+
+# Keylogger logs (never commit real captured data)
+**/logs/.keylog
+**/.syslog
+**/.ksraw
+**/.phonelog
+
+# IDE
+.idea/
+*.iml
